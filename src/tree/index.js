@@ -13,6 +13,9 @@ const shouldRenderNode = (node, searchModeOn, data) => {
   return !parent || parent.expanded
 }
 
+
+
+
 class Tree extends Component {
   static propTypes = {
     data: PropTypes.object,
